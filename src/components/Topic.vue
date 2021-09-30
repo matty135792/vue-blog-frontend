@@ -1,4 +1,4 @@
-<template></template>
+<template>
     <div @dblclick="$emit('toggle-reminder', topic.id)" :class="[topic.reminder ? 'reminder' : '', 'topic']">
         <h3>
             {{topic.title}}
